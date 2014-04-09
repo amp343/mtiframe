@@ -1,4 +1,4 @@
-console.log('MT IFRAMES: starting quest to conquer MT iframes...');
+//console.log('MT IFRAMES: starting quest to conquer MT iframes...');
 
 var element = document.getElementsByTagName("iframe");
 
@@ -13,9 +13,8 @@ for (index = element.length - 1; index >= 0; index--) {
 	element[index].parentNode.replaceChild(link, element[index]);
 
 }
-console.log('MT IFRAMES: iframes replaced... boom!');
 
-
+//console.log('MT IFRAMES: iframes replaced... boom!');
 
 jQuery(document).ready(function(){
 
