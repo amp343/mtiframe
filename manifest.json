@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "MT On-Demand Iframes",
+  "name": "Mechanical Turk Requester On-Demand Iframes",
   "version": "0.2",
   "description": "Sick of Iframes taking forever to load in MT? Yeah, so is everyone else.",
   "author": "A. Peters; CMU Social Computing",
