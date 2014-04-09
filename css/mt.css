@@ -1,0 +1,22 @@
+.mt-iframes-btn{
+	padding: .2em .6em;
+	background: #4b4;
+	color:white;
+	font-size: .9em;
+	border-radius:5px;
+	border:1px solid rgba(0,0,0,.15);
+	float:left;
+	clear:left;
+	cursor:pointer;
+}
+.mt-iframes-btn:hover{
+	color:white;
+	border-color: rgba(0,0,0,.2);
+	background: #3a3;
+}
+iframe{
+	height: 500px;
+	width: 95% !important;
+	float:left;
+	clear:left;
+}
