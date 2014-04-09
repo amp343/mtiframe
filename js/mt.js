@@ -1,10 +1,4 @@
-if (navigator.appName == 'Microsoft Internet Explorer') {
-	window.frames[0].document.execCommand('Stop');
-}
-else {
-	window.frames[0].stop();
-}
-console.log('iframes stopped... eyyo!');
+console.log('MT IFRAMES: starting quest to conquer MT iframes...');
 
 var element = document.getElementsByTagName("iframe");
 
@@ -19,7 +13,7 @@ for (index = element.length - 1; index >= 0; index--) {
 	element[index].parentNode.replaceChild(link, element[index]);
 
 }
-console.log('iframes replaced... boom!');
+console.log('MT IFRAMES: iframes replaced... boom!');
 
 
 
